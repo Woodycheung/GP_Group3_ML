@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="number_of_visitors <= 31463.0\nsquared_error = 13211545517.37\nsamples = 100.0%\nvalue = 482697.47", fillcolor="#f5d0b5"] ;
+1 [label="number_of_visitors <= 28344.5\nsquared_error = 261266630.0\nsamples = 14.3%\nvalue = 339650.0", fillcolor="#fefcfa"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="squared_error = 85037125.5\nsamples = 8.6%\nvalue = 329685.0", fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label="squared_error = 17918289.0\nsamples = 5.7%\nvalue = 359580.0", fillcolor="#fdf6f1"] ;
+1 -> 3 ;
+4 [label="number_of_visitors <= 32179.0\nsquared_error = 12044526321.97\nsamples = 85.7%\nvalue = 499526.59", fillcolor="#f4cbad"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="squared_error = 0.0\nsamples = 2.9%\nvalue = 739470.0", fillcolor="#e58139"] ;
+4 -> 5 ;
+6 [label="squared_error = 11110930895.08\nsamples = 82.9%\nvalue = 494727.72", fillcolor="#f5ccaf"] ;
+4 -> 6 ;
+}

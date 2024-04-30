@@ -34,7 +34,6 @@ new_visitor_data = pd.read_csv("Data_Visitor.csv", skiprows=4)
 new_visitor_data.columns = ['Year', 'Month', 'Africa', 'Americas', 'Australia_NewZealand_SouthPacific', 'Europe',
                             'MiddleEast', 'NorthAsia', 'SouthAsia_SoutheastAsia', 'MainlandChina', 'Taiwan', 'Macau',
                             'Unidentified', 'Total']
-
 # Clean and prepare visitor data
 new_visitor_data['Year'] = new_visitor_data['Year'].replace('\xa0', '').str.strip()
 new_visitor_data['Month'] = new_visitor_data['Month'].replace('\xa0', '').str.strip()

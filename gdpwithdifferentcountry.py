@@ -86,4 +86,14 @@ Retrieved from https://www.nvidia.cn/glossary/data-science/linear-regression-log
 NVDIA. (n.d.). Random Forest Regression
 Retrieved from https://www.nvidia.cn/glossary/data-science/random-forest/
 
+STACKOVERFLOW.(n.d). Plot trees for a Random Forest in Python with Scikit-Learn
+Retrieved from https://stackoverflow.com/questions/40155128/plot-trees-for-a-random-forest-in-python-with-scikit-learn
+
+機器學習_學習筆記系列(37)：隨機森林回歸(Random Forest Regressor). May 19, 2021 
+Retrieved from https://tomohiroliu22.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98%E7%B3%BB%E5%88%97-37-%E9%9A%A8%E6%A9%9F%E6%A3%AE%E6%9E%97%E5%9B%9E%E6%AD%B8-random-forest-regressor-a0f7a57c06c4
+
+Random Forest Regression Explained in 8 Minutes. (n.d.) 
+Retrieved from https://www.youtube.com/watch?v=X1MRbEnEq2s&ab_channel=SuperDataScience
+
+
 """
